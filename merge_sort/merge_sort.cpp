@@ -53,7 +53,7 @@ void mergeSort(vector<int> &arr, int left, int right)
 
 int main()
 {
-    ofstream file("merge_sort_average.csv");
+    ofstream file("merge_sort_average2.csv");
     file << "Array_Size,Execution_Time(ns)\n";
 
     mt19937 rng(time(NULL));
