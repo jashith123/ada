@@ -8,7 +8,6 @@
 using namespace std;
 using namespace chrono;
 
-// Comparator function for sorting
 bool compare(pair<double, pair<int,int>> a, pair<double, pair<int,int>> b)
 {
     return a.first > b.first;
